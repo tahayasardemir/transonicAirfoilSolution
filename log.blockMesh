@@ -1,0 +1,143 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  dev
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : dev-c5b6e666c278
+Exec   : blockMesh
+Date   : Feb 17 2021
+Time   : 15:38:28
+Host   : "Kubuntu-Taha"
+PID    : 23855
+I/O    : uncollated
+Case   : /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Using #calcEntry at line 20 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2.so"
+Creating new library in "dynamicCode/_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2/platforms/linux64GccDPInt32Opt/lib/libcodeStream_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2.so"
+Invoking "wmake -s libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2"
+wmake libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2.so
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Opening cached dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Using #codeStream at line 21 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_4e53ea6683014d43aaae7f1655fdc419be73fa84.so"
+Creating new library in "dynamicCode/_4e53ea6683014d43aaae7f1655fdc419be73fa84/platforms/linux64GccDPInt32Opt/lib/libcodeStream_4e53ea6683014d43aaae7f1655fdc419be73fa84.so"
+Invoking "wmake -s libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_4e53ea6683014d43aaae7f1655fdc419be73fa84"
+wmake libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_4e53ea6683014d43aaae7f1655fdc419be73fa84
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_4e53ea6683014d43aaae7f1655fdc419be73fa84/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_4e53ea6683014d43aaae7f1655fdc419be73fa84.so
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Opening cached dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_4e53ea6683014d43aaae7f1655fdc419be73fa84.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Using #codeStream at line 27 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a1ca79d5a971693a00301e3a44b841419f9a7ca.so"
+Creating new library in "dynamicCode/_3a1ca79d5a971693a00301e3a44b841419f9a7ca/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a1ca79d5a971693a00301e3a44b841419f9a7ca.so"
+Invoking "wmake -s libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_3a1ca79d5a971693a00301e3a44b841419f9a7ca"
+wmake libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_3a1ca79d5a971693a00301e3a44b841419f9a7ca
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_3a1ca79d5a971693a00301e3a44b841419f9a7ca/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a1ca79d5a971693a00301e3a44b841419f9a7ca.so
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Opening cached dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a1ca79d5a971693a00301e3a44b841419f9a7ca.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Using #codeStream at line 33 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2d58ca55a9c3d5f23a93b18c140764657d312776.so"
+Creating new library in "dynamicCode/_2d58ca55a9c3d5f23a93b18c140764657d312776/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2d58ca55a9c3d5f23a93b18c140764657d312776.so"
+Invoking "wmake -s libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_2d58ca55a9c3d5f23a93b18c140764657d312776"
+wmake libso /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_2d58ca55a9c3d5f23a93b18c140764657d312776
+    ln: ./lnInclude
+    wmkdep: codeStreamTemplate.C
+    Ctoo: codeStreamTemplate.C
+    ld: /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/_2d58ca55a9c3d5f23a93b18c140764657d312776/../platforms/linux64GccDPInt32Opt/lib/libcodeStream_2d58ca55a9c3d5f23a93b18c140764657d312776.so
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Opening cached dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2d58ca55a9c3d5f23a93b18c140764657d312776.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Creating block mesh from
+    "system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 6
+		Number of boundary faces : 24
+		Number of defined boundary faces : 24
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating patches
+Creating cells
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.02732510875 .. 0.0001366256022 0.02732510875 .. 0.0001366256022 0.02733405002 .. 0.0001506767865 0.02733405002 .. 0.0001506767865 
+        j : 0.2
+        k : 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 
+    Block 1 cell size :
+        i : 0.02812276213 .. 0.02812275944
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 
+    Block 2 cell size :
+        i : 0.02854912738 .. 11.41965095
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626
+    Block 3 cell size :
+        i : 0.02732510875 .. 0.0001366256022 0.02732510875 .. 0.0001366256022 0.02733405002 .. 0.0001506767865 0.02733405002 .. 0.0001506767865 
+        j : 0.2
+        k : 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 0.000266877845 .. 8.006335351 0.0002597263652 .. 8.191143969 
+    Block 4 cell size :
+        i : 0.02812276213 .. 0.02812275944
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 0.0002671985209 .. 8.015955626 0.0002671772795 .. 8.015318385 
+    Block 5 cell size :
+        i : 0.02854912738 .. 11.41965095
+        j : 0.2
+        k : 0.0002671985209 .. 8.015955626
+
+There are no merge patch pairs edges
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-49.7 -0.1 -50) (100 0.1 50)
+  nPoints: 32960
+  nCells: 16200
+  nFaces: 65080
+  nInternalFaces: 32120
+----------------
+Patches
+----------------
+  patch 0 (start: 32120 size: 170) name: aerofoil
+  patch 1 (start: 32290 size: 270) name: inlet
+  patch 2 (start: 32560 size: 120) name: outlet
+  patch 3 (start: 32680 size: 16200) name: back
+  patch 4 (start: 48880 size: 16200) name: front
+
+End
+

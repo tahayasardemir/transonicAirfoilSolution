@@ -1,0 +1,40 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  dev
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : dev-c5b6e666c278
+Exec   : transformPoints -scale (1 0 1)
+Date   : Feb 17 2021
+Time   : 15:38:31
+Host   : "Kubuntu-Taha"
+PID    : 24589
+I/O    : uncollated
+Case   : /home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Using #calcEntry at line 20 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_1cdcbfab46358bbcf2b09b5ffdb81074e9595ac2.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Using #codeStream at line 21 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_4e53ea6683014d43aaae7f1655fdc419be73fa84.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Using #codeStream at line 27 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_3a1ca79d5a971693a00301e3a44b841419f9a7ca.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Using #codeStream at line 33 in file "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible"
+Using #codeStream with "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/dynamicCode/platforms/linux64GccDPInt32Opt/lib/libcodeStream_2d58ca55a9c3d5f23a93b18c140764657d312776.so"
+codeStream : dictionary:"/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/system/controlDict/functions/forceCoeffsCompressible/forceCoeffsCompressible" master-only-reading:1
+Scaling points by (1 0 1)
+Writing points into directory "/home/taha/OpenFOAM/taha-dev/run/aerofoilNACA0012/constant/polyMesh"
+
+End
+
